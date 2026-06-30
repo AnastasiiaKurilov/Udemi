@@ -59,7 +59,7 @@ ExtentReports extent= Extentreport.config();
     // fires before ANY test in the suite runs
     @Override
     public void onStart(ITestContext context) {
-        System.out.println("Suite started: " + context.getName());
+        System.out.println("Suite started:  " + context.getName());
     }
 
     // fires after ALL tests in the suite finish

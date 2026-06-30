@@ -21,6 +21,7 @@ public class HomePage extends IOSClassActions {
 public AllertViewsPage setAllertView(){
     allertViews.click();
     return new AllertViewsPage(driver);
+
 }
 
 
