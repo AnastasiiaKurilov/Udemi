@@ -65,7 +65,7 @@ ExtentReports extent= Extentreport.config();
     // fires after ALL tests in the suite finish
     @Override
     public void onFinish(ITestContext context) {
-        System.out.println("Suite finished: " + context.getName());
+        System.out.println("Suite finished : " + context.getName());
         extent.flush();
     }
 }
